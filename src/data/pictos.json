@@ -1154,7 +1154,7 @@
   {
     "Pictos Name": "Weakness Gain",
     "Affected Attributes": "Speed, Critical Rate",
-    "Luminas Effect": "+1AP on hitting an enemy's Weakness. Once per turn.",
+    "Luminas Effect": "+1 AP on hitting an enemy's Weakness. Once per turn.",
     "Cost": 3
   }
 ]

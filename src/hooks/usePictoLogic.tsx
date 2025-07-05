@@ -12,9 +12,14 @@ interface Picto {
 export const usePictoLogic = () => {
   const [jsonInput, setJsonInput] = useState("");
   const [pictos, setPictos] = useState<Picto[]>(defaultPictosData);
-  const [selectedAttribute, setSelectedAttribute] = useState<string>(() => {
+  const [selectedAttribute, setSelectedAttribute] = useState<string[]>(() => {
     const storedAttribute = localStorage.getItem("selectedAttribute");
-    return storedAttribute || "";
+    try {
+      return storedAttribute ? JSON.parse(storedAttribute) : [];
+    } catch (error) {
+      console.error("Failed to parse selected attributes from local storage:", error);
+      return [];
+    }
   });
   const [sortOption, setSortOption] = useState<"name" | "selected" | "cost">(() => {
     const storedSortOption = localStorage.getItem("sortOption");
@@ -38,7 +43,7 @@ export const usePictoLogic = () => {
   }, [selectedPictos]);
 
   useEffect(() => {
-    localStorage.setItem("selectedAttribute", selectedAttribute);
+    localStorage.setItem("selectedAttribute", JSON.stringify(selectedAttribute));
   }, [selectedAttribute]);
 
   useEffect(() => {
@@ -102,12 +107,13 @@ export const usePictoLogic = () => {
   const filteredPictos = useMemo(() => {
     let currentPictos = [...pictos];
 
-    if (selectedAttribute) {
-      currentPictos = currentPictos.filter(
-        (picto) =>
-          picto["Affected Attributes"]
-            .toLowerCase()
-            .includes(selectedAttribute.toLowerCase())
+    const currentSelectedAttributes = Array.isArray(selectedAttribute) ? selectedAttribute : [];
+
+    if (currentSelectedAttributes.length > 0) {
+      currentPictos = currentPictos.filter((picto) =>
+        currentSelectedAttributes.some((attr) =>
+          picto["Affected Attributes"].toLowerCase().includes(attr.toLowerCase())
+        )
       );
     }
 
@@ -162,6 +168,7 @@ export const usePictoLogic = () => {
       totalHealthGain: 0,
       totalBreakDamageIncrease: 0,
       totalGradientCharge: 0,
+      totalCounterattackDamage: 0,
       estimatedDamage: 0,
       minDamage: 0,
       maxDamage: 0,
@@ -215,6 +222,12 @@ export const usePictoLogic = () => {
         summary.totalGradientCharge += parseInt(gradientChargeMatch[1], 10);
       }
 
+      // Increased Counterattack Damage
+      const counterattackDamageMatch = effect.match(/(\d+)% increased Counterattack damage/);
+      if (counterattackDamageMatch && counterattackDamageMatch[1]) {
+        summary.totalCounterattackDamage += parseInt(counterattackDamageMatch[1], 10);
+      }
+
       // Special case: Double all Heals received (this would require more complex logic to apply to other heals)
       // For now, we'll just note its presence if needed for future enhancements.
       if (effect.includes("Double all Heals received")) {
@@ -228,7 +241,7 @@ export const usePictoLogic = () => {
     });
 
     // Calculate Estimated Damage
-    summary.estimatedDamage = weaponDamage * (1 + summary.increasedDamage / 100);
+    summary.estimatedDamage = Math.round(weaponDamage * (1 + summary.increasedDamage / 100));
 
     // Calculate Min/Max Damage for Roulette
     if (summary.hasRoulette) {

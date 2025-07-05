@@ -74,6 +74,7 @@ All colors MUST be HSL.
     --effect-heal: 60 100% 50%; /* Yellow */
     --effect-break-damage: 0 100% 60%; /* Red */
     --effect-gradient: 280 100% 50%; /* Purple */
+    --effect-counterattack: 180 100% 40%; /* Cyan */
   }
 
   .dark {
@@ -119,6 +120,7 @@ All colors MUST be HSL.
     --effect-heal: 60 100% 70%; /* Lighter Yellow for dark mode */
     --effect-break-damage: 0 100% 80%; /* Lighter Red for dark mode */
     --effect-gradient: 280 100% 70%; /* Lighter Purple for dark mode */
+    --effect-counterattack: 180 100% 60%; /* Lighter Cyan for dark mode */
   }
 }
 
@@ -158,4 +160,8 @@ All colors MUST be HSL.
 
 .highlight-gradient {
   color: hsl(var(--effect-gradient));
+}
+
+.highlight-counterattack {
+  color: hsl(var(--effect-counterattack));
 }

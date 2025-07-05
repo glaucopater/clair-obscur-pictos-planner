@@ -46,7 +46,7 @@ export const PictoCard = ({ picto, onClick, selected, disabled }: PictoCardProps
         </div>
       </CardHeader>
       <CardContent className="space-y-2">
-        <p className="text-muted-foreground text-xs leading-relaxed">
+        <p className="text-xs leading-relaxed">
           {(() => {
             let effectText = picto["Luminas Effect"];
             const patterns = [
@@ -58,6 +58,7 @@ export const PictoCard = ({ picto, onClick, selected, disabled }: PictoCardProps
               { regex: /Recover (\d+) Health/g, className: "highlight-heal" },
               { regex: /(\d+)% increased Break damage/g, className: "highlight-break-damage" },
               { regex: /(\d+)% of a Gradient Charge/g, className: "highlight-gradient" },
+              { regex: /(\d+)% increased Counterattack damage/g, className: "highlight-counterattack" },
               { regex: /50% chance to deal either 50% or 200%/g, className: "highlight-damage" },
             ];
 
