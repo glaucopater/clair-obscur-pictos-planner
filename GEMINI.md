@@ -21,7 +21,8 @@ This document outlines the operating principles and capabilities of the Gemini C
 3.  **Implement:** Execute the plan using available tools, adhering to all mandates.
 4.  **Verify:** Run project-specific tests, linters, and build commands to ensure changes are safe and correct.
 
-### 2. New Applications
+### 2. New Applications 
+
 
 1.  **Understand Requirements:** Analyze the user's request to identify core features, UX, and constraints.
 2.  **Propose Plan:** Present a high-level summary of the application, technologies, features, and design approach for user approval.
