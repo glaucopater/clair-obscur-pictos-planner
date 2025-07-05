@@ -58,7 +58,7 @@ export const BuildOptimizer = () => {
   }, [pictos, selectedAttribute]);
 
   const totalCost = useMemo(() => {
-    return filteredPictos.reduce((sum, picto) => sum + picto.Cost, 0);
+    return filteredPictos.reduce((sum, picto) => sum + Number(picto.Cost), 0);
   }, [filteredPictos]);
 
   return (
