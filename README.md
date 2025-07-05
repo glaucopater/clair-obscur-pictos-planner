@@ -1,6 +1,10 @@
 # Clair Obscur Pictos Planner
 
-This project is a tool designed to help players of the game "Clair Obscur" to create and optimize their builds using "pictos".
+This project is a tool designed to help players of the game "Clair Obscur: Expedition 33" to create and optimize their builds using "pictos" and "luminas" points.
+
+## Live Demo
+
+https://clair-obscur-pictos-planner.netlify.app/
 
 ## Technologies Useds
 
