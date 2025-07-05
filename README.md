@@ -1,5 +1,5 @@
 # Clair Obscur Pictos Planner
-s
+
 This project is a tool designed to help players of the game "Clair Obscur" to create and optimize their builds using "pictos".
 
 ## Technologies Useds
