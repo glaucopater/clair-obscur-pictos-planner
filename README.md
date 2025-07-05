@@ -2,9 +2,12 @@
 
 This project is a tool designed to help players of the game "Clair Obscur: Expedition 33" to create and optimize their builds using "pictos" and "luminas" points.
 
-## Live Demo
+## Demo
 
-https://clair-obscur-pictos-planner.netlify.app/
+![Demo](/public/demo_1.png)
+
+## [Live](https://clair-obscur-pictos-planner.netlify.app/) 🔥
+
 
 ## Technologies Useds
 
