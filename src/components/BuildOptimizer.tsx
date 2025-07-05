@@ -48,7 +48,7 @@ export const BuildOptimizer = () => {
           <div className="flex items-center justify-center gap-3">
             <Sparkles className="text-mystical w-8 h-8" />
             <h1 className="text-4xl font-bold bg-gradient-to-r from-mystical to-mystical-glow bg-clip-text text-transparent">
-              Clair Obscur Build Optimizer
+              Clair Obscur: Expedition 33 Build Optimizer
             </h1>
             <Sparkles className="text-mystical w-8 h-8" />
           </div>
@@ -104,14 +104,14 @@ export const BuildOptimizer = () => {
 
         {/* Total Effects Summary */}
         {Object.keys(totalEffectsSummary).length > 0 && (
-          <Card className="bg-gaming-card border-gaming-border sticky top-6 z-10">
+          <Card className="bg-gaming-card border-gaming-border sticky top-6 z-10 opacity-90">
             <CardHeader>
               <CardTitle className="text-mystical">
                 Total Effects Summary
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-row gap-4 max-h-60 overflow-y-auto">
-              <div className="flex-1 space-y-2">
+              <div className="w-1/2 space-y-2">
                 {totalEffectsSummary.increasedDamage > 0 && (
                   <div className="text-muted-foreground highlight-damage">
                     Total Increased Damage: {totalEffectsSummary.increasedDamage}%
@@ -161,9 +161,9 @@ export const BuildOptimizer = () => {
                   </div>
                 )}
               </div>
-              <div className="flex-1">
+              <div className="w-1/2">
                 <label className="text-mystical">List of the effects</label>
-                <div className="w-full bg-gaming-bg border-gaming-border p-2 rounded-md max-h-40 overflow-y-auto">
+                <div className="w-full bg-gaming-bg border-gaming-border p-2 rounded-md max-h-[7.5em] overflow-y-auto">
                   {totalEffect.map((effect, index) => (
                     <div key={index} className="text-muted-foreground">
                       {effect}

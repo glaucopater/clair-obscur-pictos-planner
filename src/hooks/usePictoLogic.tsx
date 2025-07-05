@@ -173,19 +173,19 @@ export const usePictoLogic = () => {
       const attributes = picto["Affected Attributes"];
 
       // Increased Damage
-      const damageMatch = effect.match(/(\d+)% increased damage(?! Break)/);
-      if (damageMatch && damageMatch[1]) {
-        summary.increasedDamage += parseInt(damageMatch[1], 10);
+      const damageMatch = effect.match(/(\d+)% increased damage(?! Break)|Deal (\d+)% more damage/);
+      if (damageMatch && (damageMatch[1] || damageMatch[2])) {
+        summary.increasedDamage += parseInt(damageMatch[1] || damageMatch[2], 10);
       }
 
       // AP Gain
-      const apMatch = effect.match(/\+(\d+) AP/);
+      const apMatch = effect.match(/(?:\+|Gain |Give )(\d+) AP/);
       if (apMatch && apMatch[1]) {
         summary.totalAPGain += parseInt(apMatch[1], 10);
       }
 
       // Shield Gain
-      const shieldMatch = effect.match(/\+(\d+) Shield/);
+      const shieldMatch = effect.match(/(?:\+|gain |add )(\d+) Shield(?: points)?/);
       if (shieldMatch && shieldMatch[1]) {
         summary.totalShieldGain += parseInt(shieldMatch[1], 10);
       }
