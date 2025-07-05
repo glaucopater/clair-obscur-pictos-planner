@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { PictoCard } from "./PictoCard";
 import { Sparkles, Filter, Calculator } from "lucide-react";
@@ -45,9 +44,9 @@ export const BuildOptimizer = () => {
       <div className="max-w-7xl mx-auto space-y-6">
         {/* Header */}
         <div className="text-center space-y-4">
-          <div className="flex items-center justify-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-3">
             <Sparkles className="text-mystical w-8 h-8" />
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-mystical to-mystical-glow bg-clip-text text-transparent">
+            <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-mystical to-mystical-glow bg-clip-text text-transparent">
               Clair Obscur: Expedition 33 Build Optimizer
             </h1>
             <Sparkles className="text-mystical w-8 h-8" />
@@ -59,32 +58,36 @@ export const BuildOptimizer = () => {
 
         {/* Luminas Input */}
         <Card className="bg-gaming-card border-gaming-border">
-          <CardHeader className="flex flex-row items-center justify-between">
+          <CardHeader className="flex flex-col md:flex-row items-center justify-between">
             <CardTitle className="text-mystical">Build Configuration</CardTitle>
-            <div className="flex items-center gap-2">
-              <label className="text-mystical text-sm">Max Luminas:</label>
-              <Input
-                type="number"
-                value={maxLuminas}
-                onChange={(e) => setMaxLuminas(Number(e.target.value))}
-                className="w-24 bg-gaming-bg border-gaming-border"
-              />
-              <label className="text-mystical text-sm">Weapon Damage:</label>
-              <Input
-                type="number"
-                value={weaponDamage}
-                onChange={(e) => {
-                  const value = Number(e.target.value);
-                  if (value >= 1 && value <= 15000) {
-                    setWeaponDamage(value);
-                  } else if (value < 1) {
-                    setWeaponDamage(1);
-                  } else if (value > 15000) {
-                    setWeaponDamage(15000);
-                  }
-                }}
-                className="w-24 bg-gaming-bg border-gaming-border"
-              />
+            <div className="flex flex-wrap items-center gap-2 mt-4 md:mt-0">
+              <div className="flex flex-col md:flex-row items-center gap-2 mb-2 md:mb-0">
+                <label className="text-mystical text-sm">Max Luminas:</label>
+                <Input
+                  type="number"
+                  value={maxLuminas}
+                  onChange={(e) => setMaxLuminas(Number(e.target.value))}
+                  className="w-24 bg-gaming-bg border-gaming-border"
+                />
+              </div>
+              <div className="flex flex-col md:flex-row items-center gap-2 mb-2 md:mb-0">
+                <label className="text-mystical text-sm">Weapon Damage:</label>
+                <Input
+                  type="number"
+                  value={weaponDamage}
+                  onChange={(e) => {
+                    const value = Number(e.target.value);
+                    if (value >= 1 && value <= 15000) {
+                      setWeaponDamage(value);
+                    } else if (value < 1) {
+                      setWeaponDamage(1);
+                    } else if (value > 15000) {
+                      setWeaponDamage(15000);
+                    }
+                  }}
+                  className="w-24 bg-gaming-bg border-gaming-border"
+                />
+              </div>
               <Badge
                 variant="secondary"
                 className="bg-mystical/20 text-mystical-foreground border-mystical/30"
@@ -107,20 +110,25 @@ export const BuildOptimizer = () => {
           <Card className="bg-gaming-card border-gaming-border sticky top-6 z-10 opacity-90">
             <CardHeader>
               <CardTitle className="text-mystical">
-                Total Effects Summary
+                Pictos Effects Summary
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex flex-row gap-4 max-h-60 overflow-y-auto">
-              <div className="w-1/2 space-y-2">
+            <CardContent className="flex flex-col md:flex-row gap-4 max-h-60 overflow-y-auto">
+              <div className="w-full md:w-1/2 space-y-2">
                 {totalEffectsSummary.increasedDamage > 0 && (
-                  <div className="text-muted-foreground highlight-damage">
-                    Total Increased Damage: {totalEffectsSummary.increasedDamage}%
+                  <div className="highlight-damage">
+                    Total Increased Damage:{" "}
+                    {totalEffectsSummary.increasedDamage}%
                     {totalEffectsSummary.estimatedDamage > 0 && (
                       <span>
-                        {" "}(Estimated Damage: {totalEffectsSummary.estimatedDamage.toFixed(2)}
+                        {" "}
+                        (Estimated Damage:{" "}
+                        {totalEffectsSummary.estimatedDamage}
                         {totalEffectsSummary.hasRoulette && (
                           <span>
-                            {" "}(Min: {totalEffectsSummary.minDamage.toFixed(2)} / Max: {totalEffectsSummary.maxDamage.toFixed(2)})
+                            {" "}
+                            (Min: {totalEffectsSummary.minDamage} /
+                            Max: {totalEffectsSummary.maxDamage})
                           </span>
                         )}
                         )
@@ -129,46 +137,70 @@ export const BuildOptimizer = () => {
                   </div>
                 )}
                 {totalEffectsSummary.totalAPGain > 0 && (
-                  <div className="text-muted-foreground highlight-ap">
+                  <div className="highlight-ap">
                     Total AP Gain: {totalEffectsSummary.totalAPGain}
                   </div>
                 )}
                 {totalEffectsSummary.totalShieldGain > 0 && (
-                  <div className="text-muted-foreground highlight-shield">
+                  <div className="highlight-shield">
                     Total Shield Gain: {totalEffectsSummary.totalShieldGain}
                   </div>
                 )}
                 {totalEffectsSummary.totalHeal > 0 && (
-                  <div className="text-muted-foreground highlight-heal">
+                  <div className="highlight-heal">
                     Total Heal: {totalEffectsSummary.totalHeal}%
                   </div>
                 )}
                 {totalEffectsSummary.totalHealthGain > 0 && (
-                  <div className="text-muted-foreground highlight-heal">
+                  <div className="highlight-heal">
                     Total Health Gain: {totalEffectsSummary.totalHealthGain}
                   </div>
                 )}
                 {totalEffectsSummary.totalBreakDamageIncrease > 0 && (
-                  <div className="text-muted-foreground highlight-break-damage">
+                  <div className="highlight-break-damage">
                     Total Increased Break Damage:{" "}
                     {totalEffectsSummary.totalBreakDamageIncrease}%
                   </div>
                 )}
                 {totalEffectsSummary.totalGradientCharge > 0 && (
-                  <div className="text-muted-foreground highlight-gradient">
+                  <div className="highlight-gradient">
                     Total Gradient Charge:{" "}
                     {totalEffectsSummary.totalGradientCharge}%
                   </div>
                 )}
+                {totalEffectsSummary.totalCounterattackDamage > 0 && (
+                  <div className="highlight-counterattack">
+                    Total Increased Counterattack Damage:{" "}
+                    {totalEffectsSummary.totalCounterattackDamage}%
+                  </div>
+                )}
               </div>
-              <div className="w-1/2">
+              <div className="w-full md:w-1/2 hidden md:block">
                 <label className="text-mystical">List of the effects</label>
                 <div className="w-full bg-gaming-bg border-gaming-border p-2 rounded-md max-h-[7.5em] overflow-y-auto">
-                  {totalEffect.map((effect, index) => (
-                    <div key={index} className="text-muted-foreground">
-                      {effect}
-                    </div>
-                  ))}
+                  {totalEffect.map((effect, index) => {
+                    let effectClass = "text-muted-foreground";
+                    if (effect.includes("increased Counterattack damage")) {
+                      effectClass = "highlight-counterattack";
+                    } else if (effect.includes("increased damage")) {
+                      effectClass = "highlight-damage";
+                    } else if (effect.includes("AP")) {
+                      effectClass = "highlight-ap";
+                    } else if (effect.includes("Shield")) {
+                      effectClass = "highlight-shield";
+                    } else if (effect.includes("Heal")) {
+                      effectClass = "highlight-heal";
+                    } else if (effect.includes("Break damage")) {
+                      effectClass = "highlight-break-damage";
+                    } else if (effect.includes("Gradient Charge")) {
+                      effectClass = "highlight-gradient";
+                    }
+                    return (
+                      <div key={index} className={effectClass}>
+                        {effect}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </CardContent>
@@ -182,16 +214,16 @@ export const BuildOptimizer = () => {
               <CardHeader>
                 <CardTitle className="text-mystical flex items-center gap-2">
                   <Calculator className="w-5 h-5" />
-                  Attribute Filter
+                  Category Filter
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Button
-                    variant={selectedAttribute === "" ? "default" : "outline"}
-                    onClick={() => setSelectedAttribute("")}
+                    variant={selectedAttribute.length === 0 ? "default" : "outline"}
+                    onClick={() => setSelectedAttribute([])}
                     className={
-                      selectedAttribute === ""
+                      selectedAttribute.length === 0
                         ? "bg-mystical hover:bg-mystical-glow"
                         : ""
                     }
@@ -202,11 +234,17 @@ export const BuildOptimizer = () => {
                     <Button
                       key={attr}
                       variant={
-                        selectedAttribute === attr ? "default" : "outline"
+                        selectedAttribute.includes(attr) ? "default" : "outline"
                       }
-                      onClick={() => setSelectedAttribute(attr)}
+                      onClick={() => {
+                        setSelectedAttribute((prev) =>
+                          prev.includes(attr)
+                            ? prev.filter((a) => a !== attr)
+                            : [...prev, attr]
+                        );
+                      }}
                       className={
-                        selectedAttribute === attr
+                        selectedAttribute.includes(attr)
                           ? "bg-mystical hover:bg-mystical-glow"
                           : ""
                       }
@@ -307,32 +345,10 @@ export const BuildOptimizer = () => {
             </CardContent>
           </Card>
         )}
-
-        {/* Data Input Section */}
-        <Card className="bg-gaming-card border-gaming-border">
-          <CardHeader>
-            <CardTitle className="text-mystical flex items-center gap-2">
-              <Filter className="w-5 h-5" />
-              Override Pictos Data
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <Textarea
-              placeholder="Paste your pictos JSON data here, or leave empty to use default data..."
-              value={jsonInput}
-              onChange={(e) => setJsonInput(e.target.value)}
-              rows={8}
-              className="bg-gaming-bg border-gaming-border"
-            />
-            <Button
-              onClick={handleLoadData}
-              className="bg-mystical hover:bg-mystical-glow"
-            >
-              Override Data
-            </Button>
-          </CardContent>
-        </Card>
       </div>
+      <footer className="mt-8 text-center text-muted-foreground text-sm">
+        <p>Disclaimer: This is a fan-made tool and not affiliated with the official Clair Obscur: Expedition 33 game or its developers.</p>
+      </footer>
     </div>
   );
 };
