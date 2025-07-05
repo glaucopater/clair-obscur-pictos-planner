@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				mystical: {
+					DEFAULT: 'hsl(var(--mystical))',
+					foreground: 'hsl(var(--mystical-foreground))',
+					glow: 'hsl(var(--mystical-glow))'
+				},
+				gaming: {
+					bg: 'hsl(var(--gaming-bg))',
+					card: 'hsl(var(--gaming-card))',
+					border: 'hsl(var(--gaming-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
