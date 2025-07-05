@@ -16,5 +16,1145 @@
     "Affected Attributes": "Health, Defense",
     "Luminas Effect": "20% change to gain Rush on Free Aim shot.",
     "Cost": 3
+  },
+  {
+    "Pictos Name": "Accelerating Tint",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Healing Tints also apply Rush",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Aegis Revival",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+1 Shield on being revived.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Anti-Blight",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Immune to Blight.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Anti-Burn",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Immune to Burn.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Anti-Charm",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Immune to Charm.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Anti-Freeze",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Immune to Freeze.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Anti-Stun",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Immune to Stun.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "At Death's Door",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "Deal 50% more damage if Health is below 10%.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Attack Lifesteal",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Recover 15% Health on Base Attack.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Augmented Aim",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Free Aim damage.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Augmented Attack",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "50% increased Base Attack damage.",
+    "Cost": 7
+  },
+  {
+    "Pictos Name": "Augmented Counter I",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "25% increased Counterattack damage.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Augmented Counter II",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "50% increased Counterattack damage.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Augmented Counter III",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "75% increased Counterattack damage.",
+    "Cost": 7
+  },
+  {
+    "Pictos Name": "Augmented First Strike",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased damage on the first hit. Once per battle.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Auto Death",
+    "Affected Attributes": "Critical Rate",
+    "Luminas Effect": "Kill self on battle start.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Auto Powerful",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Powerful for 3 turns on battle start.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Auto Regen",
+    "Affected Attributes": "Defense",
+    "Luminas Effect": "Apply Regen for 3 turns on battle start.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Auto Rush",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Rush for 3 turns on battle start.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Auto Shell",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "Apply Shell for 3 turns on battle start.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Base Shield",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1 Shield if not affected by any Shield on turn start.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Beneficial Contamination",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+2 AP on applying a Status Effect. Once per turn.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Break Specialist",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Break damage is increased by 50%, but base damage is reduced by 20%.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Breaker",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Break damage.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Breaking Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Base Attack can Break.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Breaking Burn",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Break damage on Burning enemies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Breaking Counter",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Break damage on Counterattack.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Breaking Death",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Fully charge enemy's Break Bar on death.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Breaking Shots",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Break damage with Free Aim Shots.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Breaking Slow",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Break damage against Slowed enemies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Burn Affinity",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased damage on Burning Targets.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Burning Break",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Apply 3 Burn stacks on Breaking a target.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Burning Death",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply 3 Burn to all enemies on Death.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Burning Mark",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Apply Burn on hitting a Marked enemy.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Burning Shots",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "20% chance to Burn on Free Aim shot.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Charging Alteration",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+10% of a Gradient Charge on applying a Buff. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Charging Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+15% of a Gradient Charge on Base Attack.",
+    "Cost": 7
+  },
+  {
+    "Pictos Name": "Charging Burn",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "+20% of a Gradient Charge on applying Burn. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Charging Counter",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "+20% of a Gradient Charge on Counterattack.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Charging Critical",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "+20% of a Gradient Charge on Critical Hit. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Charging Mark",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+20% of a Gradient Charge on hitting a Marked target. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Charging Stun",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "+5% of a Gradient Charge on hitting a Stunned enemy.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Charging Tint",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "+5% of a Gradient Charge on using an item.",
+    "Cost": 2
+  },
+  {
+    "Pictos Name": "Charging Weakness",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+15% of a Gradient Charge on hitting a Weakness. Once per turn.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Cheater",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Always play twice in a row.",
+    "Cost": 40
+  },
+  {
+    "Pictos Name": "Cleansing Tint",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Healing Tints also remove all Status Effects from the target.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Clea's Life",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "On turn start, if no damage taken since last turn, recover 100% Health.",
+    "Cost": 30
+  },
+  {
+    "Pictos Name": "Combo Attack I",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Base Attack has 1 extra hit.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Combo Attack II",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Base Attack has 1 extra hit.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Combo Attack III",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Base Attack has 1 extra hit.",
+    "Cost": 30
+  },
+  {
+    "Pictos Name": "Confident",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Take 50% less damage, but can't be Healed.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Confident Fighter",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "30% increased damage, but can't be Healed.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Critical Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Break damage on Critical Hits.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Critical Burn",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Critical Chance on Burning enemies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Critical Moment",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Critical Chance if Health is below 30%.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Critical Stun",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "100% on Critical Chance on hitting a Stunned target.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Critical Vulnerability",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "25% increased Critical Chance on Defenceless enemies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Critical Weakness",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "25% increased Critical Chance on Weakness.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Dead Energy I",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+3 AP on killing an enemy.",
+    "Cost": 2
+  },
+  {
+    "Pictos Name": "Dead Energy II",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+3 AP on killing an enemy.",
+    "Cost": 2
+  },
+  {
+    "Pictos Name": "Death Bomb",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "On Death, deal damage to all enemies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Defensive Mode",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "On receiving damage, consume 1 AP to take 30% less damage, if possible.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Dodger",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Gain 1 AP on Perfect Dodge. Once per turn.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Double Burn",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "On applying a Burn stack, apply a second one.",
+    "Cost": 30
+  },
+  {
+    "Pictos Name": "Double Mark",
+    "Affected Attributes": "Speed",
+    "Luminas Effect": "Mark requires 1 more hit to be removed.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Draining Cleanse",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Consume 1 AP to prevent Status Effects application, if possible.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Effective Heal",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Double all Heals received.",
+    "Cost": 30
+  },
+  {
+    "Pictos Name": "Effective Support",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "+2 AP on using an item.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Empowering Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Gain Powerful for 1 turn on Base Attack.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Empowering Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Gain Powerful on Breaking a target.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Empowering Dodge",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "5% increased damage for each consecutive successful Dodge. Can stack up to \n10 times.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Empowering Last Stand",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Gain Powerful if fighting alone.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Empowering Parry",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Each successful Parry increases damage by 5% until end of the following \nturn. Taking any damage removes this buff.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Empowering Tint",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Healing Tints also apply Powerful.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Energetic Healer",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+2AP on Healing an ally. Once per turn.",
+    "Cost": ""
+  },
+  {
+    "Pictos Name": "Energising Attack I",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1 AP on Base Attack.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Attack II",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+1 AP on Base Attack.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Energising Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+3 AP on Breaking a target.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Energising Burn",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+1 AP on applying Burn. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Cleanse",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Dispel the first negative Status Effect received an gain 2 AP.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Death",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "On death, +4 AP to allies.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Energising Gradient",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1 AP per Gradient Charge consumed.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Heal",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "On Healing an ally, also give 2 AP.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Jump",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "+1 AP on Jump Counterattack.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Energising Pain",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "No longer gain AP on Parry. +1AP on getting hit.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Parry",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "+1 AP on successful Parry.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Energising Powerful",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Give 2 AP on applying Powerful.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Revive",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "+3 AP to all allies when revived.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Energising Rush",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Give 2 AP on applying Rush.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Shell",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Give 2 AP on applying Shell.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Shots",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "20% chance to gain 1 AP on Free Aim shot.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Start I",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "+1 AP on battle start.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Energising Start II",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "+1 AP on battle start.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Start III",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "+1 AP on battle start.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Energising Start IV",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "+1 AP on battle start.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Energising Stun",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1 AP on hitting a Stunned target with a Skill.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Energising Turn",
+    "Affected Attributes": "Speed",
+    "Luminas Effect": "+1 AP on turn start.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Energy Master",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "Every AP gain is increased by 1.",
+    "Cost": 40
+  },
+  {
+    "Pictos Name": "Enfeebling Attack",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Base Attack applies Powerless for 1 turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Enfeebling Mark",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Marked targets deal 30% less damage.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Exhausting Power",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "50% increased damage if Exhausted.",
+    "Cost": 2
+  },
+  {
+    "Pictos Name": "Exposing Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Base Attack applies Defenseless for 1 turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Exposing Break",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Apply Defenceless on Break.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Faster Than Strong",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Always play twice in a row, but deal 50% less damage.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "First Offensive",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "First hit dealt and taken deals 50% more damage.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "First Strike",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Play first.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Fueling Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Breaking a target doubles its Burn amount.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Full Strength",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "25% increased damage on full Health.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Glass Canon",
+    "Affected Attributes": "Speed",
+    "Luminas Effect": "Deal 25% more damage, but take 25% more damage.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Gradient Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+50% of a Gradient Charge on Breaking a target.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Gradient Breaker",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Breaking damage with Gradient Attacks.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Gradient Fighter",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+25% increased damage with Gradient Attacks.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Greater Defenceless",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+15% to Defenceless damage amplification.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Greater Powerful",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+15% to Powerful damage increase.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Greater Powerless",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+15% to Powerless damage reduction.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Greater Rush",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+25% Rush Speed increase.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Greater Shell",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "+10% to Shell damage reduction.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Greater Slow",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+15% to Slow Speed reduction.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Healing Boon",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Heal 15% HP on applying a buff.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Healing Counter",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "Recover 25% Health on Counterattack.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Healing Death",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "On death, the rest of the Expedition recover all Health.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Healing Fire",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Recover 25% Health when attacking a Burning target. Once per turn.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Healing Mark",
+    "Affected Attributes": "Defense",
+    "Luminas Effect": "Recover 25% Health on hitting a Marked enemy. Once per turn.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Healing Parry",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Recover 3% Health on Parry.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Healing Share",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Receive 15% of all Heals affecting other characters.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Healing Stun",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Recover 5% Health on hitting a Stunned target.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Healing Tint Energy",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Healing Tints also give 1 AP.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Immaculate",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "30% increased damage until a hit is received.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "In Medias Res",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "+3 Shields on Battle Start, but max Health is halved.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Inverted Affinity",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Apply Inverted on self for 3 turns on battle start. 50% increased damage \nwhile Inverted.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Last Stand Critical",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "100% Critical Chance while fighting alone.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Longer Burn",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Burn duration is increased by 2.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Longer Powerful",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "On applying Powerful, its duration is increased by 2.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Longer Rush",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "On applying Rush, its duration is increased by 2.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Longer Shell",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "On applying Shell, its duration is increased by 2.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Marking Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Mark on Break.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Marking Shots",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "20% chance to apply Mark on Free Aim shot.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Painted Power",
+    "Affected Attributes": "Health",
+    "Luminas Effect": "Damage can exceed 9,999.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Painter",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Convert all Physical damage to Void damage.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Perilous Parry",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1 AP on Parry, but damage received is doubled.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Piercing Shot",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "25% increased Free Aim damage. Free Aim shots ignore Shields.",
+    "Cost": 2
+  },
+  {
+    "Pictos Name": "Powered Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "On every damage dealt, try to consume 1 AP. If successful, increase damage \nby 20.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Powerful Heal",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Healing an ally also applies Powerful for 1 turn.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Powerful Mark",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Gain Powerful on hitting a Marked enemy.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Powerful on Shell",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "Apply Powerful on applying Shell.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Powerful Revive",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Powerful for 3 turns when revived.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Powerful Shield",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "10% increased damage per Shield Point on self.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Powerful Shots",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "20% chance to gain Powerful on Free Aim shot.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Pro Retreat",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Allows Flee to be instantaneous.",
+    "Cost": 40
+  },
+  {
+    "Pictos Name": "Protecting Attack",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Gain Shell for 1 turn on Base Attack.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Protecting Death",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "On death, allies gain Shell.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Protecting Heal",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Healing an ally also applies Shell for 1 turn.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Protecting Last Stand",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Gain Shell if fighting alone.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Protecting Shots",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "20% chance to gain Shell on Free Aim shot.",
+    "Cost": ""
+  },
+  {
+    "Pictos Name": "Protecting Tint",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Healing Tints also apply Shell.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Quick Break",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Play again on Breaking a target.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Random Defense",
+    "Affected Attributes": "Critical Rate",
+    "Luminas Effect": "Damage taken is randomly multiplied by a value between 50% and 200%.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Recovery",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Recovers 10% Health on turn start. (Reward for spending Chroma at the Red \nWoods Nevron quest)",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Rejuvenating Revive",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Apply Regen for 3 turns when revived.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Revive Paradox",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Play immediately when revived.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Revive Tint Energy",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Revive Tints also give 3 AP.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Rewarding Mark",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+2 AP on dealing damage to a Marked target. Once per turn.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Roulette",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "Every hit has a 50% chance to deal either 50% or 200% of its damage.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Rush on Powerful",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Rush on applying Powerful.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Shell On Rush",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Apply Shell on applying Rush.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "SOS Power",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Apply Powerful when falling below 50% Health.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "SOS Rush",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Apply Rush when falling below 50% Health.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "SOS Shell",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Apply Shell when falling below 50% Health",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Second Chance",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "Revive with 100% Health. Once per battle.",
+    "Cost": 40
+  },
+  {
+    "Pictos Name": "Shared Care",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "When healing an ally, also Heal self for 50% of that value.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Shield Affinity",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "30% increased damage while having Shields, but receiving any damage always \nremoves all Shields.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Shielding Death",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "On death, allies gain 3 Shield points.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Shielding Tint",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Healing Tints also add 2 Shields.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Shortcut",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Immediately play when falling below 30% Health. Once per battle.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Slowing Break",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "Apply Slow on Break.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Sniper",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "First Free Aim shot each turn deals 200% increased damage and can Break.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Solidifying",
+    "Affected Attributes": "Defense, Speed",
+    "Luminas Effect": "+2 Shields when the character's Health falls below 50%. Once per battle.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Solo Fighter",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Deal 50% more damage if fighting alone.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Staggering Attack",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% increased Break damage on Base Attack.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Stay Marked",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "50% chance to apply Mark when attacking a Marked target.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Stun Boost",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "30% increased damage on Stunned targets.",
+    "Cost": 10
+  },
+  {
+    "Pictos Name": "Survivor",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Survive fatal damage with 1 Health. Once per battle.",
+    "Cost": 20
+  },
+  {
+    "Pictos Name": "Sweet Kill",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "Recover 50% Health on killing an enemy.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Tainted",
+    "Affected Attributes": "Defense, Critical Rate",
+    "Luminas Effect": "15% increased damage for each Status Effect on self.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Teamwork",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "10% increased damage while all allies are alive.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "The One",
+    "Affected Attributes": "Critical Rate",
+    "Luminas Effect": "Max Health is reduced to 1.",
+    "Cost": 1
+  },
+  {
+    "Pictos Name": "Time Tint",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "Energy Tints also apply Rush.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Versatile",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "After a Free Aim hit, Base Attack damage is increased by 50% for 1 turn.",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Warming Up",
+    "Affected Attributes": "Health, Critical Rate",
+    "Luminas Effect": "5% increased damage per turn. Can stack up to 5 times.",
+    "Cost": 15
+  },
+  {
+    "Pictos Name": "Weakness Gain",
+    "Affected Attributes": "Speed, Critical Rate",
+    "Luminas Effect": "+1AP on hitting an enemy's Weakness. Once per turn.",
+    "Cost": 3
   }
 ]
