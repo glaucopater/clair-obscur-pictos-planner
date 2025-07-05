@@ -7,6 +7,7 @@ import { PictoCard } from "./PictoCard";
 import { useToast } from "@/hooks/use-toast";
 import { Sparkles, Filter, Calculator } from "lucide-react";
 import clairObscurBg from "@/assets/clair-obscur-bg.jpg";
+import defaultPictosData from "@/data/pictos.json";
 
 interface Picto {
   "Pictos Name": string;
@@ -21,30 +22,10 @@ export const BuildOptimizer = () => {
   const [selectedAttribute, setSelectedAttribute] = useState<string>("");
   const { toast } = useToast();
 
-  const sampleData = `[
-  {
-    "Pictos Name": "Accelerating Heal",
-    "Affected Attributes": "Health, Speed",
-    "Luminas Effect": "Healing an ally also applies Rush for 1 turn",
-    "Cost": 5
-  },
-  {
-    "Pictos Name": "Accelerating Last Stand",
-    "Affected Attributes": "Health, Speed",
-    "Luminas Effect": "Gain Rush if fighting alone.",
-    "Cost": 3
-  },
-  {
-    "Pictos Name": "Accelerating Shots",
-    "Affected Attributes": "Health, Defense",
-    "Luminas Effect": "20% change to gain Rush on Free Aim shot.",
-    "Cost": 3
-  }
-]`;
 
   const handleLoadData = () => {
     try {
-      const parsed = JSON.parse(jsonInput || sampleData);
+      const parsed = jsonInput ? JSON.parse(jsonInput) : defaultPictosData;
       setPictos(parsed);
       toast({
         title: "Data Loaded Successfully",
@@ -115,7 +96,7 @@ export const BuildOptimizer = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <Textarea
-              placeholder="Paste your pictos JSON data here, or leave empty to use sample data..."
+              placeholder="Paste your pictos JSON data here, or leave empty to use default data..."
               value={jsonInput}
               onChange={(e) => setJsonInput(e.target.value)}
               rows={8}

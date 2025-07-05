@@ -1,0 +1,20 @@
+[
+  {
+    "Pictos Name": "Accelerating Heal",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Healing an ally also applies Rush for 1 turn",
+    "Cost": 5
+  },
+  {
+    "Pictos Name": "Accelerating Last Stand",
+    "Affected Attributes": "Health, Speed",
+    "Luminas Effect": "Gain Rush if fighting alone.",
+    "Cost": 3
+  },
+  {
+    "Pictos Name": "Accelerating Shots",
+    "Affected Attributes": "Health, Defense",
+    "Luminas Effect": "20% change to gain Rush on Free Aim shot.",
+    "Cost": 3
+  }
+]
