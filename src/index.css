@@ -67,6 +67,13 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --effect-damage: 30 100% 50%; /* Orange */
+    --effect-ap: 120 100% 40%; /* Green */
+    --effect-shield: 200 100% 50%; /* Blue */
+    --effect-heal: 60 100% 50%; /* Yellow */
+    --effect-break-damage: 0 100% 60%; /* Red */
+    --effect-gradient: 280 100% 50%; /* Purple */
   }
 
   .dark {
@@ -105,6 +112,13 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --effect-damage: 30 100% 70%; /* Lighter Orange for dark mode */
+    --effect-ap: 120 100% 60%; /* Lighter Green for dark mode */
+    --effect-shield: 200 100% 70%; /* Lighter Blue for dark mode */
+    --effect-heal: 60 100% 70%; /* Lighter Yellow for dark mode */
+    --effect-break-damage: 0 100% 80%; /* Lighter Red for dark mode */
+    --effect-gradient: 280 100% 70%; /* Lighter Purple for dark mode */
   }
 }
 
@@ -116,4 +130,32 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.highlight-effect {
+  font-weight: bold;
+}
+
+.highlight-damage {
+  color: hsl(var(--effect-damage));
+}
+
+.highlight-ap {
+  color: hsl(var(--effect-ap));
+}
+
+.highlight-shield {
+  color: hsl(var(--effect-shield));
+}
+
+.highlight-heal {
+  color: hsl(var(--effect-heal));
+}
+
+.highlight-break-damage {
+  color: hsl(var(--effect-break-damage));
+}
+
+.highlight-gradient {
+  color: hsl(var(--effect-gradient));
 }

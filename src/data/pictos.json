@@ -465,7 +465,7 @@
     "Pictos Name": "Energetic Healer",
     "Affected Attributes": "Defense, Speed",
     "Luminas Effect": "+2AP on Healing an ally. Once per turn.",
-    "Cost": ""
+    "Cost": 5
   },
   {
     "Pictos Name": "Energising Attack I",
@@ -939,7 +939,7 @@
     "Pictos Name": "Protecting Shots",
     "Affected Attributes": "Health, Defense",
     "Luminas Effect": "20% chance to gain Shell on Free Aim shot.",
-    "Cost": ""
+    "Cost": 0
   },
   {
     "Pictos Name": "Protecting Tint",
